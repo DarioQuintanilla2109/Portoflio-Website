@@ -248,6 +248,31 @@ img {
   margin: 5rem;
   padding: 1.25rem; }
 
+.text-area {
+  text-align: center; }
+
+.slider {
+  justify-content: center; }
+
+slide-viewer {
+  position: relative;
+  overflow: hidden;
+  height: 100px; }
+
+.slide-group {
+  width: 80%;
+  height: 50%;
+  position: relative; }
+
+.slide {
+  width: 80%;
+  height: 50%;
+  display: none;
+  position: absolute; }
+
+.slide:first-child {
+  display: block; }
+
 #contact-a .text-fields {
   display: grid;
   grid-template-areas: 'name email' 'subject phone' 'message message';

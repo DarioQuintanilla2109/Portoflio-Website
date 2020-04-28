@@ -249,8 +249,51 @@ img{
   padding: 1.25rem;
 }
 
+.text-area{
+  text-align: center;
+}
 
 
+
+
+//SLIDER IMAGES
+
+
+.slider{
+ 
+ justify-content: center;
+}
+
+slide-viewer{
+  position: relative;
+  overflow: hidden;
+  height: 100px;
+  
+}
+
+
+
+
+
+.slide-group{
+  width: 80%;
+  height: 50%;
+  
+  position: relative;
+}
+
+.slide {
+  width: 80%;
+  height: 50%;
+  display: none;
+  position: absolute;
+
+}
+
+.slide:first-child{
+  display: block;
+  
+}
 
 //Contact page
 
