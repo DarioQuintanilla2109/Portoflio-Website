@@ -1,5 +1,6 @@
 //Tablets and smaller
 
+
 @media(max-width:800px){
 
   #header-home{
@@ -74,15 +75,15 @@
     }
   }
 //About
-#about{
-  &-a{
-    .about-info{
-      grid-template-areas:
-      'bioimage'
-      'bio';
-    }
-  }
-}
+// #about{
+//   &-a{
+//     .about-info{
+//       grid-template-areas:
+//       'bioimage'
+//       'bio';
+//     }
+//   }
+// }
 
 #contact{
   &-a{

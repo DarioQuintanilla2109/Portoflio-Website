@@ -236,18 +236,50 @@ img {
       #home-c .process-icon:hover .process-step {
         background: #68c1d1; }
 
-#about-a .about-info {
-  display: grid;
-  grid-template-areas: 'bioimage bio bio';
-  grid-gap: 1.2rem; }
+.bg-sbBlue {
+  color: white;
+  background-color: #68c1d1;
+  font-size: larger; }
 
-#about-a .bio-image {
-  grid-area: bioimage; }
+.bg-sbBlue2 {
+  color: darkgray;
+  background-color: #65e7e7; }
 
-#about-a .bio {
-  grid-area: bio;
-  border-left: 3px solid #68c1d1;
-  padding: 0.8rem; }
+.bg-pink {
+  color: white;
+  background-color: #e76ae7; }
+
+.bg-fiu {
+  color: #B6862C;
+  background-color: #081E3F; }
+
+#main-header .port-item {
+  width: 30%; }
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer; }
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 3em !important; } }
+
+.cp.bg-sbBlue {
+  padding: 3.05rem; }
+
+#flowChart {
+  width: 800px;
+  height: 800px;
+  margin: auto; }
+
+.fas.fa-check-square {
+  color: #68c1d1; }
+
+.fas.fa-check-square {
+  color: #68c1d1; }
+
+.fas.fa-exclamation {
+  color: red; }
 
 #about-b .progress {
   overflow: hidden;
@@ -409,8 +441,6 @@ slide-viewer {
       padding-bottom: 0; }
   #home-b .stats div {
     padding: 2rem 0 1rem 0; }
-  #about-a .about-info {
-    grid-template-areas: 'bioimage' 'bio'; }
   #contact-a .text-fields {
     grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
   #main-footer {

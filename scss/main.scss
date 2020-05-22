@@ -222,45 +222,110 @@ img{
 }
 
 
-//About section
-#about{
-  &-a{
-    .about-info{
-      display: grid;
-      grid-template-areas:
-      'bioimage bio bio';
-      grid-gap: 1.2rem;
-    }
-    //grid area
-    .bio-image{
-      grid-area: bioimage;
-    }
-    .bio{
-      grid-area: bio;
-      border-left: 3px solid $main-color;
-      padding:0.8rem;
 
-    }
-  }
+.bg-sbBlue{
+  color: white;
+  background-color: $main-color;
+  font-size: larger;
 
-//progress bars
-  &-b{
-    .progress{
-      overflow: hidden;
-      height:20px;
-      background: $dark-color;
-      border-radius: 5px;
-      margin-bottom: 0.6rem;
+}
 
-      div{
-        height:100%;
-        color: #f4f4f4;
-        text-align: center;
-        background-color: $main-color;
-      }
-    }
+.bg-sbBlue2{
+  color: darkgray;
+  background-color: $hyper-color;
+}
+.bg-pink{
+  color: white;
+  background-color: $medium-color;
+}
+
+.bg-fiu{
+  color: #B6862C;
+  background-color: #081E3F;
+}
+
+.port-item {
+
+}
+
+#main-header .port-item{
+  width: 30%;
+}
+
+#main-header .port-item:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media(min-width: 1199px){
+  
+  .port-item{
+    padding:3em !important;
   }
 }
+
+.cp.bg-sbBlue{
+  padding: 3.05rem;
+}
+
+
+#flowChart{
+  width: 800px;
+  height: 800px;
+  margin: auto;
+  
+}
+
+.fas.fa-check-square{
+color: $main-color;
+}
+.fas.fa-check-square{
+  color: $main-color;
+}
+.fas.fa-exclamation{
+  color: red;
+}
+
+
+// //About section
+ #about{
+//   &-a{
+//     .about-info{
+//       display: grid;
+//       grid-template-areas:
+//       'bioimage bio bio';
+//       grid-gap: 1.2rem;
+//     }
+//     //grid area
+//     .bio-image{
+//       grid-area: bioimage;
+//     }
+//     .bio{
+//       grid-area: bio;
+//       border-left: 3px solid $main-color;
+//       padding:0.8rem;
+
+//     }
+//   }
+
+// //progress bars
+  &-b{
+     .progress{
+       overflow: hidden;
+       height:20px;
+       background: $dark-color;
+       border-radius: 5px;
+       margin-bottom: 0.6rem;
+
+       div{
+         height:100%;
+         color: #f4f4f4;
+         text-align: center;
+         background-color: $main-color;
+       }
+     }
+   }
+ }
 
 //Text field under last sales report
 .separator{
