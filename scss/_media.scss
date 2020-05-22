@@ -11,7 +11,11 @@
     padding-top:5rem;
     }
   }
-
+  #education{
+    .imgDiv{
+      display: none;
+    }
+  }
  
 }
 
@@ -84,6 +88,13 @@
 //     }
 //   }
 // }
+
+  #education{
+    .imgDiv{
+      display: none;
+    }
+  }
+
 
 #contact{
   &-a{

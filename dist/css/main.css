@@ -267,7 +267,7 @@ img {
 .cp.bg-sbBlue {
   padding: 3.05rem; }
 
-#flowChart {
+.imgDiv {
   width: 800px;
   height: 800px;
   margin: auto; }
@@ -411,7 +411,9 @@ slide-viewer {
   #header-home {
     height: 30rem; }
     #header-home .header-content {
-      padding-top: 5rem; } }
+      padding-top: 5rem; }
+  #education .imgDiv {
+    display: none; } }
 
 @media (max-width: 500px) {
   #main-nav {
@@ -441,6 +443,8 @@ slide-viewer {
       padding-bottom: 0; }
   #home-b .stats div {
     padding: 2rem 0 1rem 0; }
+  #education .imgDiv {
+    display: none; }
   #contact-a .text-fields {
     grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
   #main-footer {
